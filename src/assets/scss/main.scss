@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import '_colors';
+@import '_buttons';
+
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  ::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: $secondary-color;
+  }
+
+  ::selection {
+    color: white;
+    background: $secondary-color;
+  }
+
+}
+
+input {
+  &:focus {
+    outline: 1.5px solid $secondary-color !important;
+    transition: all .1s;
+  }
+}
+
+//globals
+
+.form-group {
+  width: 100%;
+  margin: 30px 0px;
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .form-control {
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    // border-radius: 10px;
+    border: 1px solid gainsboro;
+
+    &.contact {
+      padding-left: 45px !important;
+    }
+  }
+
+  span {
+    color: $accent-color !important;
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 10px;
+  }
+}
+
+.alert {
+  margin: 20px 0px;
+  padding: 10px;
+  text-align: center;
+
+  svg {
+    margin-bottom: -2px;
+  }
+
+  &.clear {
+    background-color: orange;
+    color: white;
+  }
+
+  &.success {
+    background-color: green;
+    color: white;
+  }
+
+  &.empty {
+    background-color: crimson;
+    color: white;
+  }
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+.main {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.error-page {
+  background: rgb(0, 200, 255);
+  background: linear-gradient(0deg, rgba(0, 200, 255, 1) 0%, rgba(137, 223, 218, 1) 100%);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+
+  img {
+    margin-bottom: 10px;
+    width: 200px;
+  }
+}
+
+//Text Stylings
+.text-primary {
+  color: $primary-color;
+
+  &.heading {
+    margin-top: 50px;
+  }
+}
+
+//Sections
+.details-section {
+  // background-color: green;
+  // width: 500px;
+  flex-grow: 1;
+  min-height: 100vh;
+
+  .details-forms {
+    padding: 20px;
+    margin-top: 20px;
+
+    .logo {
+      width: 180px;
+      margin: -10px;
+    }
+
+    .button-controls {
+      margin-top: 30px;
+
+      button {
+        &:nth-child(2) {
+          margin: 0px 0px 0px 10px;
+        }
+      }
+    }
+  }
+}
+
+.preview-section {
+  background: rgb(0, 200, 255);
+  background: linear-gradient(0deg, rgba(0, 200, 255, 1) 0%, rgba(137, 223, 218, 1) 100%);
+  // width: 100%;
+  flex-grow: 4;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .email-container {
+    background-color: white;
+    border-radius: 20px;
+    height: 600px;
+    width: 80%;
+    margin: 20px 100px;
+    -webkit-box-shadow: 10px 10px 16px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 16px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 16px -11px rgba(0, 0, 0, 0.75);
+
+    .top-controls {
+      padding: 10px;
+      background-color: $primary-color;
+      display: flex;
+      justify-content: flex-end;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+
+      svg {
+        padding: 3px;
+
+        &:nth-child(1) {
+          color: #FF4A4A;
+        }
+
+        &:nth-child(2) {
+          color: #FFE64A;
+        }
+
+        &:nth-child(3) {
+          color: #4AFF92;
+        }
+      }
+    }
+
+    .recepient-section {
+      background-color: $primary-color;
+      padding: 20px;
+      border-top: 1px solid $light;
+
+      p {
+        margin: 0;
+        color: $light;
+        font-size: .8rem;
+
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+
+    .email-signature-section {
+      margin: 100px auto;
+      width: 400px;
+
+
+      .divider {
+        height: 1.5px;
+        width: 320px;
+        background-color: $primary-color;
+        border-radius: 10px;
+        margin: 5px 0px;
+      }
+
+
+      .strat-logo {
+        width: 330px;
+        // margin-left: -5px;
+      }
+
+      .content-name {
+        // display: flex;
+        // justify-content: space-between;
+        // border-bottom: 1.5px solid $primary-color;
+
+        p {
+          margin: 0;
+          font-weight: bold;
+          font-size: .8rem;
+
+          &:nth-child(2) {
+            color: $primary-color;
+            font-weight: 600;
+          }
+        }
+      }
+
+      .content-company {
+        .company-address {
+          margin: 10px 0px;
+        }
+        p {
+          font-size: .8rem;
+        }
+
+        .social-media {
+
+          img {
+            height: 20px;
+            width: 20px;
+          }
+        }
+      }
+    }
+
+
+  }
+}
