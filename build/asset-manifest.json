@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/strat-email-sig-gen/static/css/main.6c9d00d2.chunk.css",
+    "main.js": "/strat-email-sig-gen/static/js/main.c8ce87ae.chunk.js",
+    "main.js.map": "/strat-email-sig-gen/static/js/main.c8ce87ae.chunk.js.map",
+    "runtime-main.js": "/strat-email-sig-gen/static/js/runtime-main.76296bfe.js",
+    "runtime-main.js.map": "/strat-email-sig-gen/static/js/runtime-main.76296bfe.js.map",
+    "static/js/2.2d6e439c.chunk.js": "/strat-email-sig-gen/static/js/2.2d6e439c.chunk.js",
+    "static/js/2.2d6e439c.chunk.js.map": "/strat-email-sig-gen/static/js/2.2d6e439c.chunk.js.map",
+    "static/js/3.72fd20d9.chunk.js": "/strat-email-sig-gen/static/js/3.72fd20d9.chunk.js",
+    "static/js/3.72fd20d9.chunk.js.map": "/strat-email-sig-gen/static/js/3.72fd20d9.chunk.js.map",
+    "index.html": "/strat-email-sig-gen/index.html",
+    "static/css/main.6c9d00d2.chunk.css.map": "/strat-email-sig-gen/static/css/main.6c9d00d2.chunk.css.map",
+    "static/js/2.2d6e439c.chunk.js.LICENSE.txt": "/strat-email-sig-gen/static/js/2.2d6e439c.chunk.js.LICENSE.txt",
+    "static/media/banner.5b037934.png": "/strat-email-sig-gen/static/media/banner.5b037934.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76296bfe.js",
+    "static/js/2.2d6e439c.chunk.js",
+    "static/css/main.6c9d00d2.chunk.css",
+    "static/js/main.c8ce87ae.chunk.js"
+  ]
+}
